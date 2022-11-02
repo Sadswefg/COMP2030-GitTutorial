@@ -8,6 +8,6 @@ def fibonacci(position):
   if(position == 1 or position == 2):
     return 1
   if(position == 0):
-    return position
+    return 0
 return fibonacci(position - 1) + fibonacci(position - 2)
 
